@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<article xmlns="http://docbook.org/ns/docbook"
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1" xml:id="article_bgk_m1z_w1b">
     <info>
         <title/>
         <author>
@@ -14,7 +14,7 @@
             <email/>
         </author>
     </info>
-    <sect1>
+    <sect1 xml:id="sect1_cgk_m1z_w1b">
         <title>Create Groups</title>
         <para>This is a test article using the Oxygen web app for authoring and editing XML
             content.</para>
@@ -30,7 +30,8 @@
         <para>Here are some reasons why folks might not like this:</para>
         <itemizedlist>
             <listitem>
-                <para>Folks need to know the name of the elements to be able to insert them</para>
+                <para xml:id="para_evv_v1z_w1b">Folks need to know the name of the elements to be
+                    able to insert them</para>
             </listitem>
             <listitem>
                 <para>If you don't know HTML lingo at the least, it may be confusing</para>
@@ -56,5 +57,30 @@
     &lt;para>Information that will save the reader unnecessary
       frustration.&lt;/para>
   &lt;/important></programlisting>
+        <para>How about a table?</para>
+        <informaltable>
+            <col width="50%"/>
+            <col width="50%"/>
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Field name in Console</td>
+                    <td xml:id="td_nvj_v1z_w1b">Description of field in Console</td>
+                </tr>
+                <tr>
+                    <td>Another field name in Console</td>
+                    <td>Another description of field in Console</td>
+                </tr>
+                <tr>
+                    <td>Yet another...</td>
+                    <td>And another...</td>
+                </tr>
+            </tbody>
+        </informaltable>
     </sect1>
 </article>
