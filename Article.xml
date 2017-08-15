@@ -15,7 +15,46 @@
         </author>
     </info>
     <sect1>
-        <title/>
-        <para/>
+        <title>Create Groups</title>
+        <para>This is a test article using the Oxygen web app for authoring and editing XML
+            content.</para>
+        <para>How easy is it to create content? </para>
+        <para>Is it as easy as Confluence?</para>
+        <para>How would our SMEs react to using this tool?<inlinemediaobject>
+                <imageobject>
+                    <imagedata fileref="giphy%20(2).gif"/>
+                </imageobject>
+            </inlinemediaobject></para>
+        <para>How easy is it to write in a structured XML tool? Intuitive?</para>
+        <para>May take some getting used to - but it doesn't seem like rocket science.</para>
+        <para>Here are some reasons why folks might not like this:</para>
+        <itemizedlist>
+            <listitem>
+                <para>Folks need to know the name of the elements to be able to insert them</para>
+            </listitem>
+            <listitem>
+                <para>If you don't know HTML lingo at the least, it may be confusing</para>
+            </listitem>
+            <listitem>
+                <para>You actually have to pay attention to what you are inserting instead of just
+                    freestyling.</para>
+            </listitem>
+            <listitem>
+                <para>Where is the source code view?</para>
+            </listitem>
+            <listitem>
+                <para>I can't get out of this list...</para>
+                <para>help...</para>
+            </listitem>
+        </itemizedlist>
+        <para>Ah, okay - if you click the More... <code>menu </code>above the toolbar, you can
+            change your preferences to show tags. This way you can see where to insert the tag you
+            need.</para>
+        <para>How about a code block?</para>
+        <programlisting language="xml" role="xml">&lt;important>
+    &lt;title>Important Summary&lt;/title>
+    &lt;para>Information that will save the reader unnecessary
+      frustration.&lt;/para>
+  &lt;/important></programlisting>
     </sect1>
 </article>
