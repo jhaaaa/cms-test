@@ -18,7 +18,9 @@
         <title>Create Groups</title>
         <para>This is a test article using the Oxygen web app for authoring and editing XML
             content.</para>
-        <para>How easy is it to create content? </para>
+        <para>How easy is it to create content?
+            <?oxy_insert_start author="Jennifer Hasegawa" timestamp="20170815T155831+0000"?>So, was
+            it easy? Yes? No?<?oxy_insert_end?></para>
         <para>Is it as easy as Confluence?</para>
         <para>How would our SMEs react to using this tool?<inlinemediaobject>
                 <imageobject>
@@ -84,3 +86,4 @@
         </informaltable>
     </sect1>
 </article>
+<?oxy_options track_changes="on"?>
